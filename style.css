@@ -1,0 +1,62 @@
+body{
+  background-color: #232527;
+  overflow: hidden;
+}
+#back{
+  color: yellow;
+  font-size: 500px;
+  text-shadow: 5px 5px 8px rgb(161, 161, 0);
+  position: relative;
+  top: -10pc;
+  left: 5pc;
+}
+#forward{
+  color: yellow;
+  font-size: 500px;
+  text-shadow: 5px 5px 8px rgb(161, 161, 0);
+  position: relative;
+  bottom: 45pc;
+  left: 35pc;
+}
+.container{
+  position: relative;
+  bottom: 4pc;
+}
+.logo-container{
+  position: relative;
+  bottom: 8pc;
+  left: 2.7pc;
+}
+#logo-icon{
+  font-size: 200px;
+  font-family: Pacifico;
+  rotate: 20deg;
+  background: linear-gradient(20deg, #ff00d0, #4e73ff, #00b1ff, #00ffff);
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  top: -63pc;
+  left: 16pc;
+}
+#logo-icon-two{
+  font-size: 200px;
+  font-family: Chokokutai;
+  text-align: center;
+  text-indent: -15pc;
+  rotate: -20deg;
+  background: linear-gradient(20deg, #ff00d0, #4e73ff, #00b1ff, #00ffff, cyan);
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  top: -90pc;
+  left: 7pc;
+}
+.text-logo{
+  text-align: center;
+  color: #00ffff;
+  position: relative;
+  bottom: 100pc;
+  font-family: Chokokutai;
+  font-size: 80px;
+  text-shadow: 7px 7px 15px cyan;
+}
